@@ -4,13 +4,26 @@ body {
   background: #eee;
   border: #eee;
   font-family: Source Sans Pro;
+  display: center;
+  width: 725px;
 }
-
 nav li {
   display: inline-block;
   list-style: none;
   text-decoration: none;
   font-family: Source Sans Pro;
+  color: #777;
+}
+h1 {
+  text-align: center;
+  font-family: Abril Fatface;
+}
+.newspaper-container {
+  padding: 20px;
+  background: white;
+  border-radius: 10px;
+  width: 700px;
+  box-shadow: #ddd;
 }
 li {
   font-size: small;
@@ -23,10 +36,6 @@ title {
 nav {
   text-align: center;
 }
-h1 {
-  text-align: center;
-  font-family: Abril Fatface;
-}
 
 a {
   text-decoration: none;
@@ -35,6 +44,7 @@ a {
 }
 h5 {
   color: rgb(238, 34, 34);
+  font-family: Abril Fatface;
 }
 img {
   text-align: center;
@@ -42,12 +52,21 @@ img {
 
 .more-articles {
   display: inline-block;
+  border-top: 1px solid rgb(175, 169, 169);
 }
 .short-article {
-  width: 300px;
+  width: 270px;
+}
+.more-articles {
+  display: inline-block;
+  border-top: 1px solid rgb(175, 169, 169);
+}
+.short-article2 {
+  width: 180px;
 }
 p {
-  width: 700px;
+  width: 680px;
+  padding: 5px;
 }
 h2,
 h4 {
@@ -55,8 +74,23 @@ h4 {
 }
 section {
   display: inline-block;
-  padding: 25px;
+  padding: 20px;
 }
 #image1 {
   width: 700px;
+}
+ul {
+  border-top: 1px solid rgb(175, 169, 169);
+  border-bottom: 1px solid rgb(175, 169, 169);
+  padding: 5px;
+}
+.smallimages {
+  width: 290px;
+}
+.smallimages2 {
+  width: 150px;
+  height: 125px;
+}
+footer {
+  text-align: right;
 }
